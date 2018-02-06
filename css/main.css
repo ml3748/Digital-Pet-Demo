@@ -1,0 +1,19 @@
+body {
+  font-family: fantasy;
+}
+
+.maindiv{
+  padding-bottom: 100px;
+}
+
+h1{
+  text-align: center;
+}
+
+.haptwo{
+  width: 70%;
+}
+
+button{
+ margin-left: 50px;
+}
