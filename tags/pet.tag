@@ -39,13 +39,12 @@
 		this.donutdisappear = "hide";
 		this.dolphin = "hide";
 
-		this.secondImgOn = true;
+		this.secondImgOn = false;
 
 		this.show = function () {
 			// delete this.disappear;
 			this.secondImgOn = !this.secondImgOn;
 			// this.secondImgOn = true;
-
 			console.log(this);
 		};
 
@@ -53,12 +52,7 @@
 			delete this.disappeartoo;
 			setTimeout(function(){
 			  alert("Bunny is happy!");
-			}, 5000);
-			// alert("Bunny is happy!");
-		};
-
-		this.showdonut = function () {
-			delete this.donutdisappear;
+			}, 400);
 		};
 
 		this.showdonut = function () {
@@ -70,15 +64,4 @@
 			alert("Never give Bunny donut! Now she becomes a dolphin and it's all your fault!");
 		};
 	</script>
-
-	<style>
-		:scope {
-			display: block;
-			border: 1px solid orange;
-		}
-		.cat {
-			background-color: tomato;
-		}
-	</style>
-
 </pet>
